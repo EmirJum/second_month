@@ -5,16 +5,16 @@ const reset = document.getElementById('reset')
 let num = 0;
 pros.onclick = () => {
 	num++
-	center.innerText = num.toString()
+	center.innerText = num
 }
 cons.onclick = () =>{
 	num--
 	if(num < 1){
 		num = 0
 	}
-	center.innerText = num.toString()
+	center.innerText = num
 }
 reset.onclick = () => {
 	num = 0
-	center.innerText =  num.toString()
+	center.innerText =  num
 }
