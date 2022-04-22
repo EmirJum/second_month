@@ -1,15 +1,13 @@
 body {
 	margin: 0;
 	padding: 0;
-	background: url(../dz5_emirjum_13-01/img/svetofor.jpg) center no-repeat;
+	background: url(../dz5_emirjum_13-01/img/family.jpg) center no-repeat;
 	background-size: cover;
 	height: 100vh;
 }
 .main {
 	display: flex;
 	justify-content: center;
-	align-items: center;
-	margin: 0 auto;
 	padding-top: 50px;
 }
 .red {
