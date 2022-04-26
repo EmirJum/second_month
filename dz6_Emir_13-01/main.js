@@ -33,7 +33,7 @@ function render() {
 	MainDiv.setAttribute("class", "list");
 	for(let i = 0; i < list.length; i++ ) {
 			const divList = document.createElement('div');
-			divList.setAttribute("class", "block");
+			divList.setAttribute("class", "burger");
 			const p = document.createElement("p");
 			p.innerHTML = list[i].text;
 			divList.append(p);
