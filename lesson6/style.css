@@ -1,0 +1,20 @@
+/* // string expression - интерполяция строк
+
+// const first_name = "Jack";
+// const last_name = "Barbaro";
+//
+// console.log(first_name + " " + last_name);
+//
+// console.log(First Name: ${first_name} ${last_name}); */ */
+
+const getFullName = (user) => {
+/* // return "First Name: " + user.first_name + "\n" + "Last Name: " + user.last_name; */
+	return First Name: ${user.first_name}\nLast Name: ${user.last_name}
+}
+
+const user = {
+    first_name: 'Emir',
+    last_name: 'Shegol'
+}
+
+console.log(getFullName(user));
