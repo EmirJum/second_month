@@ -60,66 +60,100 @@
 // console.log(Tomka)
 // console.log(arez)
 
-class cozyHome {
-	constructor(height, width, matetial, roof, rooms, roofs_color, toilets, toilet_color,wardrobe, beds,){
+// class cozyHome {
+// 	constructor(height, width, matetial, roof, rooms, roofs_color, toilets, toilet_color,wardrobe, beds,){
+// 		this.height = height;
+// 		this.matetial = matetial;
+// 		this.roof = roof,
+// 		this.rooms = rooms;
+// 		this.roofs_color = roofs_color;
+// 		this.toilets = toilets;
+// 		this.toilet_color = toilet_color;
+// 		this.wardrobe = wardrobe;
+// 		this.beds = beds;
+// 	}
+// }
+// class stairs extends cozyHome {
+// 	constructor(height, width, matetial, roof, rooms, roofs_color, toilets, toilet_color,wardrobe, beds, carpet, wallpaper, stairs, TV, sofa, monitors){
+// 		super(height, width, matetial, roof, rooms, roofs_color, toilets, toilet_color,wardrobe, beds)
+// 		this.carper = carpet;
+// 		this.wallpaper = wallpaper;
+// 		this.stairs = stairs;
+// 		this.TV = TV;
+// 		this.sofa = sofa;
+// 		this.monitors = monitors;
+// 	}
+// }
+// const first_stare = new stairs(
+// 	200,
+// 	50,
+// 	"brick",
+// 	"не нужно",
+// 	2,
+// 	1,
+// 	"blue",
+// 	4,
+// 	"нет",
+// 	6,
+// 	"orange",
+// 	22,
+// 	2,
+// 	2,
+// 	0
+// )
+// const second_stare = new stairs(
+// 	200,
+// 	70,
+// 	"brick",
+// 	"2",
+// 	3,
+// 	"brown",
+// 	2,
+// 	"blue",
+// 	5,
+// 	4,
+// 	"orange",
+// 	22,
+// 	1,
+// 	0,
+// 	3
+// )
+// console.log(first_stare)
+// console.log(second_stare)
+
+class mektep {
+	constructor(height, width, rooms, desks, lenguages, lessons, students, teachers, cook, cleaner){
 		this.height = height;
-		this.matetial = matetial;
-		this.roof = roof,
+		this.width = width;
 		this.rooms = rooms;
-		this.roofs_color = roofs_color;
-		this.toilets = toilets;
-		this.toilet_color = toilet_color;
-		this.wardrobe = wardrobe;
-		this.beds = beds;
+		this.desks = desks;
+		this.lenguages = lenguages;
+		this.lessons = lessons;
+		this.students = students;
+		this.teachers = teachers;
+		this.cook = cook;
+		this.cleaner = cleaner;
 	}
 }
-class stairs extends cozyHome {
-	constructor(height, width, matetial, roof, rooms, roofs_color, toilets, toilet_color,wardrobe, beds, carpet, wallpaper, stairs, TV, sofa, monitors){
-		super(height, width, matetial, roof, rooms, roofs_color, toilets, toilet_color,wardrobe, beds)
-		this.carper = carpet;
-		this.wallpaper = wallpaper;
-		this.stairs = stairs;
-		this.TV = TV;
-		this.sofa = sofa;
-		this.monitors = monitors;
-	}
-}
-const first_stare = new stairs(
+
+
+const fav_school = new mektep(
+	700,
+	800,
 	200,
-	50,
-	"brick",
-	"не нужно",
-	2,
-	1,
-	"blue",
-	4,
-	"нет",
-	6,
-	"orange",
-	22,
-	2,
-	2,
-	0
-)
-const second_stare = new stairs(
-	200,
-	70,
-	"brick",
-	"2",
+	5000,
 	3,
-	"brown",
-	2,
-	"blue",
-	5,
-	4,
-	"orange",
-	22,
-	1,
-	0,
-	3
+	8,
+	1000,
+	500,
+	30,
+	40,
+	30,
+	400,
 )
-console.log(first_stare)
-console.log(second_stare)
+
+console.log(fav_school)
+
 
 
 
