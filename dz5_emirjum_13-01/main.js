@@ -1,9 +1,10 @@
 const main = prompt('color?')
 
 switch (main){
-	case 'red': 
+	case 'red', 'красный': 
 		document.getElementsByClassName('red_inner')[0].style.background = 'red'
 		document.getElementsByClassName('red_inner')[0].innerText = 'STOP'
+		
 		alert('STOP!!!')
 		break;
 	case 'green':
